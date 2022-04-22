@@ -1,0 +1,10 @@
+name = "uk-meetup"
+compatibility_date = "2022-04-22"
+route = { pattern = "uk-meetup.walshy.dev/api/*", zone_id = "8d0c8239f88f98a8cb82ec7bb29b8556" }
+compatibility_flags = []
+main = "src/index.ts"
+usage_model = "unbound"
+
+[[r2_buckets]]
+bucket_name = "uk-meetup"
+binding = "R2"

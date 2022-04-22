@@ -1,0 +1,14 @@
+{
+  "name": "worker",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^3.5.0",
+    "typescript": "^4.6.3",
+    "wrangler": "0.0.0-d3082a9"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "publish": "wrangler publish"
+  }
+}
